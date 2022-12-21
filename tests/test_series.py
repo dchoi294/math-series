@@ -1,7 +1,8 @@
 import pytest
-from series.series import fibonacci
-from series.series import lucas
-from series.series import sum_series
+from math_series.series import fibonacci
+from math_series.series import lucas
+from math_series.series import sum_series
+
 
 def test_fibonacci():
     assert fibonacci
